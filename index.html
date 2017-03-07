@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>FOOSESHOES</title>
+</head>
+<body>
+
+	<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-24">
+			<a href="#" class="logo">FOOSESHOES</a>
+		</div>
+
+            <div class="col-md-8 col-sm-8 col-xs-24">
+            <div class="search-wrapp">
+            
+            	<div class="main-form-group">
+                            <input type="text" class="form-control news-letter-form" placeholder="Search"><span class="search-button" id="search">
+				            <i class="fa fa-search"></i>
+			              </span>
+            </div>
+            </div>
+            </div>
+		<div class="col-md-5 col-sm-5 col-xs-24">
+			<span id="login" data-toggle="modal" data-target="#myModal">
+				LOGIN or REGISTER
+			</span>
+		</div>
+		</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-24">
+				<ul class="nav nav-pills">
+  					<li role="presentation"><a href="index.html">Home</a></li>
+  					<li role="presentation"><a href="products.html">Products</a></li>
+  					<li role="presentation"><a href="about_us.html">About</a></li>
+  					<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-md-offset-5 col-sm-6 col-xs-24">
+				<ul class="nav nav-pills">
+  					<li role="presentation"><a href="#">
+  						<i class="fa fa-star-o" aria-hidden="true"></i><span class="label label-default">30</span>
+  					</a></li>
+  					<li role="presentation"><a href="#" id="shopingCart">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="label label-success">0</span>
+  					</a></li>
+  				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="slide-proguct slide-proguct1">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-13 col-sm-10 col-xs-12">
+				<img src="img/img_slide.png">
+			</div>
+			<div class="col-md-9 col-sm-10 col-xs-12">
+			<div class="prod-wrap">
+				<span class="price">$145,99</span>
+            	<h3>Pink Shoes 2013 Collection</h3>
+            	<p>Nunc non fermentum nunc. Sed ut ante 
+eget leo tempor consequat sit amet eu orci. 
+Donec dignissim dolor eget..</p>
+				<div class="btn-group" role="group" aria-label="...">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="slide-proguct slide-proguct2" style="display: none;">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-13 col-sm-10 col-xs-12">
+				<img src="img/img_slide.png">
+			</div>
+			<div class="col-md-9 col-sm-10 col-xs-12">
+			<div class="prod-wrap">
+				<span class="price">$145,99</span>
+            	<h3>Nunc non 2013 Sed ut ante</h3>
+            	<p>Nunc non fermentum nunc. Sed ut ante 
+eget leo tempor consequat sit amet eu orci. 
+Donec dignissim dolor eget..</p>
+				<div class="btn-group" role="group" aria-label="...">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="slide-proguct slide-proguct3" style="display: none;">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-13 col-sm-10 col-xs-12">
+				<img src="img/img_slide.png">
+			</div>
+			<div class="col-md-9 col-sm-10 col-xs-12">
+			<div class="prod-wrap">
+				<span class="price">$145,99</span>
+            	<h3>Pink Shoes 2013 Collection</h3>
+            	<p>Nunc non fermentum nunc. Sed ut ante 
+eget leo tempor consequat sit amet eu orci. 
+Donec dignissim dolor eget..</p>
+				<div class="btn-group" role="group" aria-label="...">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="slide-proguct slide-proguct4" style="display: none;">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-13 col-sm-10 col-xs-12">
+				<img src="img/img_slide.png">
+			</div>
+			<div class="col-md-9 col-sm-10 col-xs-12">
+			<div class="prod-wrap">
+				<span class="price">$145,99</span>
+            	<h3>Donec 2013 Sed ut</h3>
+            	<p>Nunc non fermentum nunc. Sed ut ante 
+eget leo tempor consequat sit amet eu orci. 
+Donec dignissim dolor eget..</p>
+				<div class="btn-group" role="group" aria-label="...">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="slide-proguct slide-proguct5" style="display: none;">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-13 col-sm-10 col-xs-12">
+				<img src="img/img_slide.png">
+			</div>
+			<div class="col-md-9 col-sm-10 col-xs-12">
+			<div class="prod-wrap">
+				<span class="price">$145,99</span>
+            	<h3>Pink Shoes 2013 Collection</h3>
+            	<p>Nunc non fermentum nunc. Sed ut ante 
+eget leo tempor consequat sit amet eu orci. 
+Donec dignissim dolor eget..</p>
+				<div class="btn-group" role="group" aria-label="...">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="product-menu">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-24 col-sm-12 col-xs-24">
+				<ul class="slider-nav"> 
+					<li class="active slide1">
+						<a href="#">Pink Shoes
+							<small>Now af $145,99</small>
+						</a>
+					</li> 
+					<li class="slide2">
+						<a href="#">Anna Field
+							<small>Limited Edition</small>
+						</a>
+					</li> 
+					<li class="slide3"> 
+						<a href="#">Prada
+							<small>Summer is coming</small>
+						</a> 
+					</li> 
+					<li class="slide4"> 
+						<a href="#">Casadei
+							<small>All Colors avaiable</small>
+						</a> 
+					</li>
+					<li class="slide5"> 
+						<a href="#">Mellow Yellow
+							<small>Free delivery</small>
+						</a> 
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="specials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="sale">
+						<a href="#">on sale</a>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="offers">
+						<a href="#">special offers</a>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="have">
+						<a href="#">must have</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="products">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-24 col-sm-24 col-xs-24">
+				<div class="prod-head">
+					<h3>New arrivals on FooseShoes</h3>
+					<a href="#" class="show-btn pull-right">Show All</a>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="1">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="2">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="3">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-md-24 col-sm-24 col-xs-24">
+				<div class="prod-head">
+					<h3>Best sellers of the month</h3>
+					<a href="#" class="show-btn pull-right">Show All</a>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="4">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="5">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-24">
+					<div class="item">
+						<div class="item-img-wrapp"><img src="img/img.png"></div>
+						<div class="item-wrapp">
+							<span class="price">$145.99</span>
+							<span class="event">Even&amp;Odd</span>
+						
+						<div class="btn-group" role="group" aria-label="" style="display: none;">
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-eye" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-star-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default">
+  					<i class="fa fa-share-square-o" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn btn-default add-item" data-id="6">
+  					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+  				</button>
+			</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6 col-sm-8 col-xs-24">
+					<div class="news">
+						<h4>Free Shipping</h4>
+						<p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem,</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-8 col-xs-24">
+					<div class="news">
+						<h4>Testimonials</h4>
+						<p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]<br>
+ - John Doe -</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-8 col-xs-24">
+					<div class="news">
+						<h4>Blog news</h4>
+						<div class="margin-b">
+							<span class="price">Apr <br> 01</span>
+							<span class="in-blog"><b>Nice & clean. The best for you blog!</b><br>
+							Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel
+							</span>
+						</div>
+						<div>
+							<span class="price">Apr <br> 01</span>
+							<span class="in-blog"><b>Nice & clean. The best for you blog!</b><br>
+							Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="widget-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-sm-5 col-xs-12 col-md-offset-1">
+					
+						<h4>TEXT WIDGET</h4>
+						<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+					
+			</div>
+			<div class="col-md-7 col-sm-5 col-xs-24">
+					<div class="wgb">
+						<h4>TWITTER WIDGET</h4>
+						<p><a href="#">@ericafustero</a> Why thank you. Your work looks awesome by the way! <a href="#">@treemelody</a></p>
+						<p>19 days ago</p>
+						<p><a href="#">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)</p>
+						<p>21 days ago</p>
+					</div>
+			</div>
+  			<div class="col-md-7 col-sm-5 col-xs-24">
+  					<h4>FLICKR WIDGET</h4>
+    				<a href="#" class="thumbnail">
+      					<img src="img/widget.png" alt="WIDGET">
+    				</a>
+  			</div>
+		</div>
+	</div>
+	</div>
+	<div class="widget-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-sm-10 col-xs-24 col-md-offset-1">
+    				<div class="input-group">
+      					<input type="text" class="form-control" placeholder="Enter email for newsletter">
+      					<span class="input-group-btn">
+        				<button class="btn btn-default" type="button"></button>
+      					</span>
+    				</div>
+  				</div>
+  				<div class="col-md-8 col-sm-10 col-xs-24 col-md-offset-7">
+  					<div class="btn-group" role="group" aria-label="">
+  				<button type="button" class="btn">
+  					<i class="fa fa-facebook" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn">
+  					<i class="fa fa-twitter" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn">
+  					<i class="fa fa-google-plus" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn">
+  					<i class="fa fa-linkedin" aria-hidden="true"></i>
+  				</button>
+  				<button type="button" class="btn">
+  					<i class="fa fa-flickr" aria-hidden="true"></i>
+  				</button>
+			</div>
+  				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-8 col-xs-24">
+					<p>Copyright © Fooseshoes 2013.</p>
+					<p>Designed by EnzoLiVolti.</p>
+				</div>
+				<div class="col-md-12 col-sm-16 col-xs-24 col-md-offset-6">
+					<ol class="breadcrumb">
+  						<li><a href="#">Home</a></li>
+  						<li><a href="#">Support</a></li>
+  						<li><a href="#">Terms and Conditions</a></li>
+  						<li><a href="#">Faqs</a></li>
+  						<li><a href="#">Contact us</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Registration</h4>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-user-plus" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-share" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Enter your mail" aria-describedby="basic-addon2">
+  		</div>
+  		<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon3">
+  		</div>
+		
+      </div>
+      <div class="modal-footer">
+		<a href="#" class="signUp pull-left">Sign Up?</a>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Enter you Login</h4>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon3">
+  		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="shopingCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Enter you Login</h4>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+  		</div>
+  		<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1"><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+  			</span>
+  			<input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon3">
+  		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
